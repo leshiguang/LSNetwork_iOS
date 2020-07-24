@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LSNetwork_iOS'
-  s.version          = '2.1.9'
+  s.version          = '0.1.1'
   s.summary          = 'LSNetworkingModule is a networking lib for lifesense'
 
 # This description is used to generate tags and improve search results.
@@ -22,10 +22,10 @@ TODO: Add long description of the pod here.
 LSNetworkingModule is a networking lib for lifesense
                        DESC
 
-  s.homepage         = 'https://gitlab.lifesense.com/lego/lifesense-ios-networking'
+  s.homepage         = 'https://github.com/leshiguang/LSNetwork_iOS.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'alex.wu' => 'yong.wu@lifesense.com' }
-  s.source           = { :git => 'git@gitlab.lifesense.com:lego/lifesense-ios-networking.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:leshiguang/LSNetwork_iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
