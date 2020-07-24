@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>websocketHost</key>
+	<dict>
+		<key>dev</key>
+		<string>health-dev.lifesense.com</string>
+		<key>qa</key>
+		<string>websocket-qa2.lifesense.com</string>
+		<key>qa2</key>
+		<string>websocket-qa2.lifesense.com</string>
+		<key>release</key>
+		<string>websocket.lifesense.com</string>
+	</dict>
+	<key>staticHost</key>
+	<dict>
+		<key>dev</key>
+		<string>http://health-dev.lifesense.com</string>
+		<key>qa</key>
+		<string>http://health-qa2.lifesense.com</string>
+		<key>qa2</key>
+		<string>http://health-qa2.lifesense.com</string>
+		<key>release</key>
+		<string>https://health.lifesense.com</string>
+	</dict>
+	<key>urlHost</key>
+	<dict>
+		<key>dev</key>
+		<string>http://health-dev.lifesense.com</string>
+		<key>qa</key>
+		<string>http://health-qa2.lifesense.com</string>
+		<key>qa2</key>
+		<string>https://health.lifesense.com</string>
+		<key>release</key>
+		<string>https://health.lifesense.com</string>
+	</dict>
+</dict>
+</plist>

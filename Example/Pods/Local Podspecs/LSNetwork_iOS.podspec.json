@@ -1,0 +1,32 @@
+{
+  "name": "LSNetwork_iOS",
+  "version": "2.1.8",
+  "summary": "LSNetworkingModule is a networking lib for lifesense",
+  "description": "TODO: Add long description of the pod here.\nLSNetworkingModule is a networking lib for lifesense",
+  "homepage": "https://gitlab.lifesense.com/lego/lifesense-ios-networking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "alex.wu": "yong.wu@lifesense.com"
+  },
+  "source": {
+    "git": "git@gitlab.lifesense.com:lego/lifesense-ios-networking.git",
+    "tag": "2.1.8"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LSNetworkingModule/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "Resources": [
+      "LSNetworkingModule/Assets/*.bundle/*.lproj"
+    ]
+  },
+  "public_header_files": "LSNetworkingModule/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}
