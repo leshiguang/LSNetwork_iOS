@@ -25,7 +25,7 @@ LSNetworkingModule is a networking lib for lifesense
   s.homepage         = 'https://github.com/leshiguang/LSNetwork_iOS.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'alex.wu' => 'yong.wu@lifesense.com' }
-  s.source           = { :git => 'git@github.com:leshiguang/LSNetwork_iOS.git', :commit => "88fb7786d86d8d1dae58685f5509c0c79d285166"  }
+  s.source           = { :git => 'git@github.com:leshiguang/LSNetwork_iOS.git', :commit => "220913967d637f1ab3203b5c892219ae1119c72b"  }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
