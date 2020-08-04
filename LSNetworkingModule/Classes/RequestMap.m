@@ -105,7 +105,7 @@ static RequestMap *gRequestMap =nil;
     if ([self.currentConfigType isEqualToString:kLSWConfigReleaseType]) {
         
         if (![format hasPrefix:@"%@/rpm"]) {
-            NSString *host = @"https://sports-beta.lifesense.com";
+            NSString *host = @"https://sports.lifesense.com";
             return [NSString stringWithFormat:format, host];
         }
     }
@@ -186,7 +186,7 @@ static RequestMap *gRequestMap =nil;
     }
     if (!_hostDict) {
         _hostDict = [[NSMutableDictionary alloc] init];
-        [_hostDict setValue:@"https://sports-beta.lifesense.com" forKey:env];
+        [_hostDict setValue:@"https://sports.lifesense.com" forKey:env];
     }
 }
 
