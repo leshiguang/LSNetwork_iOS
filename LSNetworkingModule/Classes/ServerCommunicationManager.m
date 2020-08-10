@@ -98,7 +98,7 @@ typedef void(^UploadFileProgress)(double progress);
 }
 
 - (void)addNetworkingStatusChange {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kLSReachabilityChangedNotification object:nil];
       self.reachability = [LSReachability reachabilityWithHostName:kTestHttpHostStr];
       [self.reachability startNotifier];
 }
@@ -106,18 +106,18 @@ typedef void(^UploadFileProgress)(double progress);
 - (void)reachabilityChanged:(NSNotification *)note {
     LSReachability* curReach = [note object];
     NSParameterAssert([curReach isKindOfClass:[LSReachability class]]);
-    NetworkStatus netStatus = [curReach currentReachabilityStatus];
+    LSNetworkStatus netStatus = [curReach currentReachabilityStatus];
     [[NSNotificationCenter defaultCenter] postNotificationName:LSNetworkingStatusChangeNotification object:[NSNumber numberWithInteger:netStatus]];
     switch (netStatus) {
-        case NotReachable:{ // 网络不能使用
+        case LSNotReachable:{ // 网络不能使用
             
             break;
         }
-        case ReachableViaWWAN:{ // 使用的数据流量
+        case LSReachableViaWWAN:{ // 使用的数据流量
             
             break;
         }
-        case ReachableViaWiFi:{ // 使用的 WiFi
+        case LSReachableViaWiFi:{ // 使用的 WiFi
             
             break;
         }
@@ -344,7 +344,7 @@ typedef void(^UploadFileProgress)(double progress);
     return [manger.reachability stopNotifier];
 }
 
-+(void)networkingStatusChange:(void (^)(NetworkStatus status))networkChangeblock {
++(void)networkingStatusChange:(void (^)(LSNetworkStatus status))networkChangeblock {
     if (networkChangeblock) {
         ServerCommunicationManager *manger = (ServerCommunicationManager *)[ServerCommunicationManager GetServerCommunication];
         networkChangeblock([manger.reachability currentReachabilityStatus]);

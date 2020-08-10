@@ -36,7 +36,7 @@ static NSString *const LSNetworkingStatusChangeNotification = @"LSNetworkingStat
 +(void)startNetworkMonitoring;
 +(void)stopNetworkMonitoring;
 //用了这个之后，通知和成员函数的block就用不了的了
-+(void)networkingStatusChange:(void (^)(NetworkStatus status))networkChangeblock;
++(void)networkingStatusChange:(void (^)(LSNetworkStatus status))networkChangeblock;
 
 @end
 

@@ -29,10 +29,10 @@
 #import <SystemConfiguration/SystemConfiguration.h>
 
 //! Project version number for MacOSReachability.
-FOUNDATION_EXPORT double ReachabilityVersionNumber;
+FOUNDATION_EXPORT double LSReachabilityVersionNumber;
 
 //! Project version string for MacOSReachability.
-FOUNDATION_EXPORT const unsigned char ReachabilityVersionString[];
+FOUNDATION_EXPORT const unsigned char LSReachabilityVersionString[];
 
 /**
  * Create NS_ENUM macro if it does not exist on the targeted version of iOS or OS X.
@@ -43,27 +43,27 @@ FOUNDATION_EXPORT const unsigned char ReachabilityVersionString[];
 #define NS_ENUM(_type, _name) enum _name : _type _name; enum _name : _type
 #endif
 
-extern NSString *const kReachabilityChangedNotification;
+extern NSString *const kLSReachabilityChangedNotification;
 
-typedef NS_ENUM(NSInteger, NetworkStatus) {
+typedef NS_ENUM(NSInteger, LSNetworkStatus) {
     // Apple NetworkStatus Compatible Names.
-    NotReachable = 0,
-    ReachableViaWiFi = 2,
-    ReachableViaWWAN = 1
+    LSNotReachable = 0,
+    LSReachableViaWiFi = 2,
+    LSReachableViaWWAN = 1
 };
 
 @class LSReachability;
 
-typedef void (^NetworkReachable)(LSReachability * reachability);
-typedef void (^NetworkUnreachable)(LSReachability * reachability);
-typedef void (^NetworkReachability)(LSReachability * reachability, SCNetworkConnectionFlags flags);
+typedef void (^LSNetworkReachable)(LSReachability * reachability);
+typedef void (^LSNetworkUnreachable)(LSReachability * reachability);
+typedef void (^LSNetworkReachability)(LSReachability * reachability, SCNetworkConnectionFlags flags);
 
 
 @interface LSReachability : NSObject
 
-@property (nonatomic, copy) NetworkReachable    reachableBlock;
-@property (nonatomic, copy) NetworkUnreachable  unreachableBlock;
-@property (nonatomic, copy) NetworkReachability reachabilityBlock;
+@property (nonatomic, copy) LSNetworkReachable    reachableBlock;
+@property (nonatomic, copy) LSNetworkUnreachable  unreachableBlock;
+@property (nonatomic, copy) LSNetworkReachability reachabilityBlock;
 
 @property (nonatomic, assign) BOOL reachableOnWWAN;
 
@@ -95,7 +95,7 @@ typedef void (^NetworkReachability)(LSReachability * reachability, SCNetworkConn
 // Is user intervention required?
 -(BOOL)isInterventionRequired;
 
--(NetworkStatus)currentReachabilityStatus;
+-(LSNetworkStatus)currentReachabilityStatus;
 -(SCNetworkReachabilityFlags)reachabilityFlags;
 -(NSString*)currentReachabilityString;
 -(NSString*)currentReachabilityFlags;

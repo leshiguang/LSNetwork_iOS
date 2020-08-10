@@ -46,12 +46,12 @@
         NSLog(@"%@",[[LSNetwokingURLCache shareInstance] queryResourceFromThisURL:@"http://aasdzddid.com"]);
     });
     //这样用了了之后，上面的通知和成员block都不能用了
-    [ServerCommunicationManager networkingStatusChange:^(NetworkStatus status) {
+    [ServerCommunicationManager networkingStatusChange:^(LSNetworkStatus status) {
         NSLog(@"block status = %zd",status);
     }];
     
-    BOOL networkSTatus = [ServerCommunicationManager isReachable];
-    NSLog(@"networking status = %d",networkSTatus);
+    BOOL networkStatus = [ServerCommunicationManager isReachable];
+    NSLog(@"networking status = %d",networkStatus);
     
     NSLog(@"networking type = %d", [ServerCommunicationManager isReachableViaWiFi]);
     
@@ -114,7 +114,7 @@
 
 - (void)networkchange:(NSNotification *)notification {
     NSNumber *statusObj = notification.object;
-    NetworkStatus status = [statusObj integerValue];
+    LSNetworkStatus status = [statusObj integerValue];
     NSLog(@"status = %zd",status);
 }
 
