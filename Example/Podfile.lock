@@ -1,5 +1,5 @@
 PODS:
-  - LSNetwork_iOS (0.1.1)
+  - LSNetwork_iOS (0.1.4)
 
 DEPENDENCIES:
   - LSNetwork_iOS (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LSNetwork_iOS: ee5d49840ff0910d379cbe33cdf878b2ef2f345d
+  LSNetwork_iOS: ea0f0d0a0ca8e3befa7464f18b2818f62a45f524
 
 PODFILE CHECKSUM: 3c5c6b01bb5ba54eef8b925b06066beab81804fc
 

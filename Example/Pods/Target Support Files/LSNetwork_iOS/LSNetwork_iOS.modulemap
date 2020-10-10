@@ -1,6 +1,0 @@
-framework module LSNetwork_iOS {
-  umbrella header "LSNetwork_iOS-umbrella.h"
-
-  export *
-  module * { export * }
-}

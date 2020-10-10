@@ -28,6 +28,46 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		9842EDBF0F0210B31159F8D8 /* Pods_LSNetworkingModule_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0671D5CE262B2B66E17E1DB2 /* Pods_LSNetworkingModule_Example.framework */; };
+		B39FC89A25209AB40055D4A8 /* LSNetworkFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC89825209AB40055D4A8 /* LSNetworkFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC89D25209AB40055D4A8 /* LSNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39FC89625209AB40055D4A8 /* LSNetworkFramework.framework */; };
+		B39FC89E25209AB40055D4A8 /* LSNetworkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B39FC89625209AB40055D4A8 /* LSNetworkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B39FC8C725209B600055D4A8 /* ErrorObjectHandleDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8A325209B5C0055D4A8 /* ErrorObjectHandleDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8C825209B600055D4A8 /* LSNetwokingURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FC8A425209B5C0055D4A8 /* LSNetwokingURLCache.m */; };
+		B39FC8C925209B600055D4A8 /* LSBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FC8A525209B5D0055D4A8 /* LSBaseRequest.m */; };
+		B39FC8CA25209B600055D4A8 /* ServerCommunicationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8A625209B5D0055D4A8 /* ServerCommunicationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8CB25209B600055D4A8 /* ErrorObjectProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8A725209B5D0055D4A8 /* ErrorObjectProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8CC25209B600055D4A8 /* RequestErrorStringUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8A825209B5D0055D4A8 /* RequestErrorStringUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8CD25209B610055D4A8 /* ProtocolSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8A925209B5D0055D4A8 /* ProtocolSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8CE25209B610055D4A8 /* LSNetwokingURLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8AA25209B5D0055D4A8 /* LSNetwokingURLCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8CF25209B610055D4A8 /* ErrorObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8AB25209B5D0055D4A8 /* ErrorObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8D025209B610055D4A8 /* ServerComunicationManagerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8AC25209B5D0055D4A8 /* ServerComunicationManagerInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8D125209B610055D4A8 /* LSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FC8AD25209B5D0055D4A8 /* LSReachability.m */; };
+		B39FC8D225209B610055D4A8 /* ServerCommunicationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8AE25209B5D0055D4A8 /* ServerCommunicationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8D325209B610055D4A8 /* BaseNetworkErrorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8AF25209B5E0055D4A8 /* BaseNetworkErrorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8D425209B610055D4A8 /* ProtocolSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FC8B025209B5E0055D4A8 /* ProtocolSimulator.m */; };
+		B39FC8D525209B610055D4A8 /* ConfigFileCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FC8B125209B5E0055D4A8 /* ConfigFileCenter.m */; };
+		B39FC8D625209B610055D4A8 /* ErrorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FC8B225209B5E0055D4A8 /* ErrorObject.m */; };
+		B39FC8D725209B610055D4A8 /* LSBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8B325209B5E0055D4A8 /* LSBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8D825209B610055D4A8 /* LSBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FC8B425209B5E0055D4A8 /* LSBaseResponse.m */; };
+		B39FC8D925209B610055D4A8 /* RequestInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8B525209B5E0055D4A8 /* RequestInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8DA25209B610055D4A8 /* ServerCommunicationEventsDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = B39FC8B625209B5E0055D4A8 /* ServerCommunicationEventsDelegate.h */; };
+		B39FC8DB25209B610055D4A8 /* HttpErrcode.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8B725209B5F0055D4A8 /* HttpErrcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8DC25209B610055D4A8 /* BaseNetworkError.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8B825209B5F0055D4A8 /* BaseNetworkError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8DD25209B610055D4A8 /* RequestMap.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FC8B925209B5F0055D4A8 /* RequestMap.m */; };
+		B39FC8DE25209B610055D4A8 /* ServerCommunicationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8BA25209B5F0055D4A8 /* ServerCommunicationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8DF25209B610055D4A8 /* ConfigFileCenterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8BB25209B5F0055D4A8 /* ConfigFileCenterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8E025209B610055D4A8 /* LSJSonResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8BC25209B5F0055D4A8 /* LSJSonResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8E125209B610055D4A8 /* LSReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8BD25209B5F0055D4A8 /* LSReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8E225209B610055D4A8 /* LSNetworkingModule.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8BE25209B600055D4A8 /* LSNetworkingModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8E325209B610055D4A8 /* RequestErrorStringUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FC8BF25209B600055D4A8 /* RequestErrorStringUtility.m */; };
+		B39FC8E425209B610055D4A8 /* BaseNetworkError.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FC8C025209B600055D4A8 /* BaseNetworkError.m */; };
+		B39FC8E525209B610055D4A8 /* LSJSonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FC8C125209B600055D4A8 /* LSJSonResponse.m */; };
+		B39FC8E625209B610055D4A8 /* RequestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FC8C225209B600055D4A8 /* RequestInfo.m */; };
+		B39FC8E725209B610055D4A8 /* ConfigFileCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8C325209B600055D4A8 /* ConfigFileCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8E825209B610055D4A8 /* RequestMap.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8C425209B600055D4A8 /* RequestMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8E925209B610055D4A8 /* LSBaseResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8C525209B600055D4A8 /* LSBaseResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39FC8EA25209B610055D4A8 /* ServerCommunicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B39FC8C625209B600055D4A8 /* ServerCommunicationManager.m */; };
+		B3DD4110252302500026432D /* ServerCommunicationEventsDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B39FC8B625209B5E0055D4A8 /* ServerCommunicationEventsDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +78,28 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = LSNetworkingModule;
 		};
+		B39FC89B25209AB40055D4A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B39FC89525209AB40055D4A8;
+			remoteInfo = LSNetworkFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B39FC89F25209AB40055D4A8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B39FC89E25209AB40055D4A8 /* LSNetworkFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0671D5CE262B2B66E17E1DB2 /* Pods_LSNetworkingModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSNetworkingModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +143,47 @@
 		99DB799EF632E0443FB2946E /* Pods_LSNetworkingModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSNetworkingModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3334D41334DB87E3663043 /* LSNetwork_iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LSNetwork_iOS.podspec; path = ../LSNetwork_iOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A634F93B0290FCE0D9B69A2F /* Pods-LSNetworkingModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSNetworkingModule_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSNetworkingModule_Tests/Pods-LSNetworkingModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B3714E7025230C6300C06974 /* LSNetworkLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSNetworkLibrary.h; sourceTree = "<group>"; };
+		B3714E7125230C6300C06974 /* LSNetworkLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSNetworkLibrary.m; sourceTree = "<group>"; };
+		B39FC89625209AB40055D4A8 /* LSNetworkFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LSNetworkFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39FC89825209AB40055D4A8 /* LSNetworkFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSNetworkFramework.h; sourceTree = "<group>"; };
+		B39FC89925209AB40055D4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39FC8A325209B5C0055D4A8 /* ErrorObjectHandleDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ErrorObjectHandleDelegate.h; path = ../LSNetworkingModule/Classes/ErrorObjectHandleDelegate.h; sourceTree = "<group>"; };
+		B39FC8A425209B5C0055D4A8 /* LSNetwokingURLCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LSNetwokingURLCache.m; path = ../LSNetworkingModule/Classes/LSNetwokingURLCache.m; sourceTree = "<group>"; };
+		B39FC8A525209B5D0055D4A8 /* LSBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LSBaseRequest.m; path = ../LSNetworkingModule/Classes/LSBaseRequest.m; sourceTree = "<group>"; };
+		B39FC8A625209B5D0055D4A8 /* ServerCommunicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ServerCommunicationDelegate.h; path = ../LSNetworkingModule/Classes/ServerCommunicationDelegate.h; sourceTree = "<group>"; };
+		B39FC8A725209B5D0055D4A8 /* ErrorObjectProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ErrorObjectProtocol.h; path = ../LSNetworkingModule/Classes/ErrorObjectProtocol.h; sourceTree = "<group>"; };
+		B39FC8A825209B5D0055D4A8 /* RequestErrorStringUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RequestErrorStringUtility.h; path = ../LSNetworkingModule/Classes/RequestErrorStringUtility.h; sourceTree = "<group>"; };
+		B39FC8A925209B5D0055D4A8 /* ProtocolSimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProtocolSimulator.h; path = ../LSNetworkingModule/Classes/ProtocolSimulator.h; sourceTree = "<group>"; };
+		B39FC8AA25209B5D0055D4A8 /* LSNetwokingURLCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LSNetwokingURLCache.h; path = ../LSNetworkingModule/Classes/LSNetwokingURLCache.h; sourceTree = "<group>"; };
+		B39FC8AB25209B5D0055D4A8 /* ErrorObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ErrorObject.h; path = ../LSNetworkingModule/Classes/ErrorObject.h; sourceTree = "<group>"; };
+		B39FC8AC25209B5D0055D4A8 /* ServerComunicationManagerInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ServerComunicationManagerInternal.h; path = ../LSNetworkingModule/Classes/ServerComunicationManagerInternal.h; sourceTree = "<group>"; };
+		B39FC8AD25209B5D0055D4A8 /* LSReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LSReachability.m; path = ../LSNetworkingModule/Classes/LSReachability.m; sourceTree = "<group>"; };
+		B39FC8AE25209B5D0055D4A8 /* ServerCommunicationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ServerCommunicationProtocol.h; path = ../LSNetworkingModule/Classes/ServerCommunicationProtocol.h; sourceTree = "<group>"; };
+		B39FC8AF25209B5E0055D4A8 /* BaseNetworkErrorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseNetworkErrorProtocol.h; path = ../LSNetworkingModule/Classes/BaseNetworkErrorProtocol.h; sourceTree = "<group>"; };
+		B39FC8B025209B5E0055D4A8 /* ProtocolSimulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProtocolSimulator.m; path = ../LSNetworkingModule/Classes/ProtocolSimulator.m; sourceTree = "<group>"; };
+		B39FC8B125209B5E0055D4A8 /* ConfigFileCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ConfigFileCenter.m; path = ../LSNetworkingModule/Classes/ConfigFileCenter.m; sourceTree = "<group>"; };
+		B39FC8B225209B5E0055D4A8 /* ErrorObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ErrorObject.m; path = ../LSNetworkingModule/Classes/ErrorObject.m; sourceTree = "<group>"; };
+		B39FC8B325209B5E0055D4A8 /* LSBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LSBaseRequest.h; path = ../LSNetworkingModule/Classes/LSBaseRequest.h; sourceTree = "<group>"; };
+		B39FC8B425209B5E0055D4A8 /* LSBaseResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LSBaseResponse.m; path = ../LSNetworkingModule/Classes/LSBaseResponse.m; sourceTree = "<group>"; };
+		B39FC8B525209B5E0055D4A8 /* RequestInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RequestInfo.h; path = ../LSNetworkingModule/Classes/RequestInfo.h; sourceTree = "<group>"; };
+		B39FC8B625209B5E0055D4A8 /* ServerCommunicationEventsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ServerCommunicationEventsDelegate.h; path = ../LSNetworkingModule/Classes/ServerCommunicationEventsDelegate.h; sourceTree = "<group>"; };
+		B39FC8B725209B5F0055D4A8 /* HttpErrcode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HttpErrcode.h; path = ../LSNetworkingModule/Classes/HttpErrcode.h; sourceTree = "<group>"; };
+		B39FC8B825209B5F0055D4A8 /* BaseNetworkError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseNetworkError.h; path = ../LSNetworkingModule/Classes/BaseNetworkError.h; sourceTree = "<group>"; };
+		B39FC8B925209B5F0055D4A8 /* RequestMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RequestMap.m; path = ../LSNetworkingModule/Classes/RequestMap.m; sourceTree = "<group>"; };
+		B39FC8BA25209B5F0055D4A8 /* ServerCommunicationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ServerCommunicationManager.h; path = ../LSNetworkingModule/Classes/ServerCommunicationManager.h; sourceTree = "<group>"; };
+		B39FC8BB25209B5F0055D4A8 /* ConfigFileCenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ConfigFileCenterProtocol.h; path = ../LSNetworkingModule/Classes/ConfigFileCenterProtocol.h; sourceTree = "<group>"; };
+		B39FC8BC25209B5F0055D4A8 /* LSJSonResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LSJSonResponse.h; path = ../LSNetworkingModule/Classes/LSJSonResponse.h; sourceTree = "<group>"; };
+		B39FC8BD25209B5F0055D4A8 /* LSReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LSReachability.h; path = ../LSNetworkingModule/Classes/LSReachability.h; sourceTree = "<group>"; };
+		B39FC8BE25209B600055D4A8 /* LSNetworkingModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LSNetworkingModule.h; path = ../LSNetworkingModule/Classes/LSNetworkingModule.h; sourceTree = "<group>"; };
+		B39FC8BF25209B600055D4A8 /* RequestErrorStringUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RequestErrorStringUtility.m; path = ../LSNetworkingModule/Classes/RequestErrorStringUtility.m; sourceTree = "<group>"; };
+		B39FC8C025209B600055D4A8 /* BaseNetworkError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BaseNetworkError.m; path = ../LSNetworkingModule/Classes/BaseNetworkError.m; sourceTree = "<group>"; };
+		B39FC8C125209B600055D4A8 /* LSJSonResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LSJSonResponse.m; path = ../LSNetworkingModule/Classes/LSJSonResponse.m; sourceTree = "<group>"; };
+		B39FC8C225209B600055D4A8 /* RequestInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RequestInfo.m; path = ../LSNetworkingModule/Classes/RequestInfo.m; sourceTree = "<group>"; };
+		B39FC8C325209B600055D4A8 /* ConfigFileCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ConfigFileCenter.h; path = ../LSNetworkingModule/Classes/ConfigFileCenter.h; sourceTree = "<group>"; };
+		B39FC8C425209B600055D4A8 /* RequestMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RequestMap.h; path = ../LSNetworkingModule/Classes/RequestMap.h; sourceTree = "<group>"; };
+		B39FC8C525209B600055D4A8 /* LSBaseResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LSBaseResponse.h; path = ../LSNetworkingModule/Classes/LSBaseResponse.h; sourceTree = "<group>"; };
+		B39FC8C625209B600055D4A8 /* ServerCommunicationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ServerCommunicationManager.m; path = ../LSNetworkingModule/Classes/ServerCommunicationManager.m; sourceTree = "<group>"; };
 		E5DBEEDD3752AAF46D5BDA4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				B39FC89D25209AB40055D4A8 /* LSNetworkFramework.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				9842EDBF0F0210B31159F8D8 /* Pods_LSNetworkingModule_Example.framework in Frameworks */,
@@ -108,16 +211,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B39FC89325209AB40055D4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				B39FC8B825209B5F0055D4A8 /* BaseNetworkError.h */,
+				B39FC8C025209B600055D4A8 /* BaseNetworkError.m */,
+				B39FC8AF25209B5E0055D4A8 /* BaseNetworkErrorProtocol.h */,
+				B39FC8C325209B600055D4A8 /* ConfigFileCenter.h */,
+				B39FC8B125209B5E0055D4A8 /* ConfigFileCenter.m */,
+				B39FC8BB25209B5F0055D4A8 /* ConfigFileCenterProtocol.h */,
+				B39FC8AB25209B5D0055D4A8 /* ErrorObject.h */,
+				B39FC8B225209B5E0055D4A8 /* ErrorObject.m */,
+				B39FC8A325209B5C0055D4A8 /* ErrorObjectHandleDelegate.h */,
+				B39FC8A725209B5D0055D4A8 /* ErrorObjectProtocol.h */,
+				B39FC8B725209B5F0055D4A8 /* HttpErrcode.h */,
+				B39FC8B325209B5E0055D4A8 /* LSBaseRequest.h */,
+				B39FC8A525209B5D0055D4A8 /* LSBaseRequest.m */,
+				B39FC8C525209B600055D4A8 /* LSBaseResponse.h */,
+				B39FC8B425209B5E0055D4A8 /* LSBaseResponse.m */,
+				B39FC8BC25209B5F0055D4A8 /* LSJSonResponse.h */,
+				B39FC8C125209B600055D4A8 /* LSJSonResponse.m */,
+				B39FC8AA25209B5D0055D4A8 /* LSNetwokingURLCache.h */,
+				B39FC8A425209B5C0055D4A8 /* LSNetwokingURLCache.m */,
+				B39FC8BE25209B600055D4A8 /* LSNetworkingModule.h */,
+				B39FC8BD25209B5F0055D4A8 /* LSReachability.h */,
+				B39FC8AD25209B5D0055D4A8 /* LSReachability.m */,
+				B39FC8A925209B5D0055D4A8 /* ProtocolSimulator.h */,
+				B39FC8B025209B5E0055D4A8 /* ProtocolSimulator.m */,
+				B39FC8A825209B5D0055D4A8 /* RequestErrorStringUtility.h */,
+				B39FC8BF25209B600055D4A8 /* RequestErrorStringUtility.m */,
+				B39FC8B525209B5E0055D4A8 /* RequestInfo.h */,
+				B39FC8C225209B600055D4A8 /* RequestInfo.m */,
+				B39FC8C425209B600055D4A8 /* RequestMap.h */,
+				B39FC8B925209B5F0055D4A8 /* RequestMap.m */,
+				B39FC8A625209B5D0055D4A8 /* ServerCommunicationDelegate.h */,
+				B39FC8B625209B5E0055D4A8 /* ServerCommunicationEventsDelegate.h */,
+				B39FC8BA25209B5F0055D4A8 /* ServerCommunicationManager.h */,
+				B39FC8C625209B600055D4A8 /* ServerCommunicationManager.m */,
+				B39FC8AE25209B5D0055D4A8 /* ServerCommunicationProtocol.h */,
+				B39FC8AC25209B5D0055D4A8 /* ServerComunicationManagerInternal.h */,
 				7CFC0302233B5E9300230986 /* test.json */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LSNetworkingModule */,
 				6003F5B5195388D20070C39A /* Tests */,
+				B39FC89725209AB40055D4A8 /* LSNetworkFramework */,
+				B3714E6F25230C6300C06974 /* LSNetworkLibrary */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				BE1C4D66425D8D9F5C4E00CF /* Pods */,
@@ -129,6 +277,7 @@
 			children = (
 				6003F58A195388D20070C39A /* LSNetworkingModule_Example.app */,
 				6003F5AE195388D20070C39A /* LSNetworkingModule_Tests.xctest */,
+				B39FC89625209AB40055D4A8 /* LSNetworkFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,6 +356,24 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		B3714E6F25230C6300C06974 /* LSNetworkLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				B3714E7025230C6300C06974 /* LSNetworkLibrary.h */,
+				B3714E7125230C6300C06974 /* LSNetworkLibrary.m */,
+			);
+			path = LSNetworkLibrary;
+			sourceTree = "<group>";
+		};
+		B39FC89725209AB40055D4A8 /* LSNetworkFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B39FC89825209AB40055D4A8 /* LSNetworkFramework.h */,
+				B39FC89925209AB40055D4A8 /* Info.plist */,
+			);
+			path = LSNetworkFramework;
+			sourceTree = "<group>";
+		};
 		BE1C4D66425D8D9F5C4E00CF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +387,40 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		B39FC89125209AB40055D4A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39FC89A25209AB40055D4A8 /* LSNetworkFramework.h in Headers */,
+				B39FC8C725209B600055D4A8 /* ErrorObjectHandleDelegate.h in Headers */,
+				B39FC8CC25209B600055D4A8 /* RequestErrorStringUtility.h in Headers */,
+				B39FC8CD25209B610055D4A8 /* ProtocolSimulator.h in Headers */,
+				B39FC8CB25209B600055D4A8 /* ErrorObjectProtocol.h in Headers */,
+				B39FC8CE25209B610055D4A8 /* LSNetwokingURLCache.h in Headers */,
+				B39FC8CA25209B600055D4A8 /* ServerCommunicationDelegate.h in Headers */,
+				B39FC8D225209B610055D4A8 /* ServerCommunicationProtocol.h in Headers */,
+				B39FC8D025209B610055D4A8 /* ServerComunicationManagerInternal.h in Headers */,
+				B3DD4110252302500026432D /* ServerCommunicationEventsDelegate.h in Headers */,
+				B39FC8D325209B610055D4A8 /* BaseNetworkErrorProtocol.h in Headers */,
+				B39FC8DC25209B610055D4A8 /* BaseNetworkError.h in Headers */,
+				B39FC8DB25209B610055D4A8 /* HttpErrcode.h in Headers */,
+				B39FC8D725209B610055D4A8 /* LSBaseRequest.h in Headers */,
+				B39FC8D925209B610055D4A8 /* RequestInfo.h in Headers */,
+				B39FC8E225209B610055D4A8 /* LSNetworkingModule.h in Headers */,
+				B39FC8DE25209B610055D4A8 /* ServerCommunicationManager.h in Headers */,
+				B39FC8DF25209B610055D4A8 /* ConfigFileCenterProtocol.h in Headers */,
+				B39FC8E025209B610055D4A8 /* LSJSonResponse.h in Headers */,
+				B39FC8E725209B610055D4A8 /* ConfigFileCenter.h in Headers */,
+				B39FC8E825209B610055D4A8 /* RequestMap.h in Headers */,
+				B39FC8E925209B610055D4A8 /* LSBaseResponse.h in Headers */,
+				B39FC8E125209B610055D4A8 /* LSReachability.h in Headers */,
+				B39FC8CF25209B610055D4A8 /* ErrorObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		6003F589195388D20070C39A /* LSNetworkingModule_Example */ = {
 			isa = PBXNativeTarget;
@@ -230,10 +431,12 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				6DA30445DAB25734236F67A6 /* [CP] Embed Pods Frameworks */,
+				B39FC89F25209AB40055D4A8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B39FC89C25209AB40055D4A8 /* PBXTargetDependency */,
 			);
 			name = LSNetworkingModule_Example;
 			productName = LSNetworkingModule;
@@ -259,6 +462,25 @@
 			productReference = 6003F5AE195388D20070C39A /* LSNetworkingModule_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B39FC89525209AB40055D4A8 /* LSNetworkFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39FC8A225209AB40055D4A8 /* Build configuration list for PBXNativeTarget "LSNetworkFramework" */;
+			buildPhases = (
+				B39FC89125209AB40055D4A8 /* Headers */,
+				B39FC89225209AB40055D4A8 /* Sources */,
+				B39FC89325209AB40055D4A8 /* Frameworks */,
+				B39FC89425209AB40055D4A8 /* Resources */,
+				B39FC8EB25209E370055D4A8 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSNetworkFramework;
+			productName = LSNetworkFramework;
+			productReference = B39FC89625209AB40055D4A8 /* LSNetworkFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -274,6 +496,11 @@
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
+					};
+					B39FC89525209AB40055D4A8 = {
+						CreatedOnToolsVersion = 11.3;
+						DevelopmentTeam = HZEC6N5GYF;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -295,6 +522,7 @@
 			targets = (
 				6003F589195388D20070C39A /* LSNetworkingModule_Example */,
 				6003F5AD195388D20070C39A /* LSNetworkingModule_Tests */,
+				B39FC89525209AB40055D4A8 /* LSNetworkFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -319,6 +547,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39FC89425209AB40055D4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +614,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LSNetworkingModule_Example/Pods-LSNetworkingModule_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B39FC8EB25209E370055D4A8 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# 不支持模拟器、bitCode的打包\n#/bin/sh /${PROJECT_DIR}/ios-build-framework-non-simulator-script.sh\n\n# 支持所有架构的打包\n/bin/sh /${PROJECT_DIR}/ios-build-framework-script.sh\n\n# 支持bitcode 但不支持模拟器的打包\n#/bin/sh /${PROJECT_DIR}/ios-build-framework-non-simulator-support-bitcode-script.sh\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -401,6 +654,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B39FC89225209AB40055D4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39FC8C825209B600055D4A8 /* LSNetwokingURLCache.m in Sources */,
+				B39FC8C925209B600055D4A8 /* LSBaseRequest.m in Sources */,
+				B39FC8D125209B610055D4A8 /* LSReachability.m in Sources */,
+				B39FC8D625209B610055D4A8 /* ErrorObject.m in Sources */,
+				B39FC8D425209B610055D4A8 /* ProtocolSimulator.m in Sources */,
+				B39FC8D525209B610055D4A8 /* ConfigFileCenter.m in Sources */,
+				B39FC8D825209B610055D4A8 /* LSBaseResponse.m in Sources */,
+				B39FC8DA25209B610055D4A8 /* ServerCommunicationEventsDelegate.h in Sources */,
+				B39FC8DD25209B610055D4A8 /* RequestMap.m in Sources */,
+				B39FC8E325209B610055D4A8 /* RequestErrorStringUtility.m in Sources */,
+				B39FC8E425209B610055D4A8 /* BaseNetworkError.m in Sources */,
+				B39FC8E525209B610055D4A8 /* LSJSonResponse.m in Sources */,
+				B39FC8E625209B610055D4A8 /* RequestInfo.m in Sources */,
+				B39FC8EA25209B610055D4A8 /* ServerCommunicationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -408,6 +682,11 @@
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* LSNetworkingModule_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+		B39FC89C25209AB40055D4A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B39FC89525209AB40055D4A8 /* LSNetworkFramework */;
+			targetProxy = B39FC89B25209AB40055D4A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -557,6 +836,7 @@
 				GCC_PREFIX_HEADER = "LSNetworkingModule/LSNetworkingModule-Prefix.pch";
 				INFOPLIST_FILE = "LSNetworkingModule/LSNetworkingModule-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -576,6 +856,7 @@
 				GCC_PREFIX_HEADER = "LSNetworkingModule/LSNetworkingModule-Prefix.pch";
 				INFOPLIST_FILE = "LSNetworkingModule/LSNetworkingModule-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -628,6 +909,75 @@
 			};
 			name = Release;
 		};
+		B39FC8A025209AB40055D4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HZEC6N5GYF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = LSNetworkFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifecense.LSNetworkFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B39FC8A125209AB40055D4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HZEC6N5GYF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = LSNetworkFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifecense.LSNetworkFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -654,6 +1004,15 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B39FC8A225209AB40055D4A8 /* Build configuration list for PBXNativeTarget "LSNetworkFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39FC8A025209AB40055D4A8 /* Debug */,
+				B39FC8A125209AB40055D4A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
