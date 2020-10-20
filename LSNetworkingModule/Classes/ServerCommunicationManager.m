@@ -56,26 +56,6 @@ typedef void(^UploadFileProgress)(double progress);
     dispatch_once(&onceToken, ^{
         serverCommunicationManager = [[ServerCommunicationManager alloc] init];
         
-//        serverCommunicationManager.httpSessionManager = [AFHTTPSessionManager manager];
-//        serverCommunicationManager.httpSessionManager.completionQueue = serverCommunicationManager.callbackQueue;
-//
-//        AFJSONResponseSerializer *serializerResponse = [AFJSONResponseSerializer serializer];
-//        serializerResponse.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html",@"text/plain", nil];
-//        serverCommunicationManager.httpSessionManager.responseSerializer = serializerResponse;
-//        AFJSONRequestSerializer *serializer = [AFJSONRequestSerializer serializer];
-//        //[serializer setValue:@"application/x-www-form-urlencoded;charset=utf-8" forHTTPHeaderField:@"Content-Type"];
-//        serializer.timeoutInterval = 30.0f;
-//        serverCommunicationManager.httpSessionManager.requestSerializer = serializer;
-//
-//        //customManager------------------------
-//        serverCommunicationManager.customSessionManager = [AFHTTPSessionManager manager];
-//        serverCommunicationManager.customSessionManager.completionQueue = serverCommunicationManager.callbackQueue;
-//
-//        AFHTTPRequestSerializer *customRequestSerializer = [AFHTTPRequestSerializer serializer];
-//        customRequestSerializer.timeoutInterval = 30.0f;
-//        serverCommunicationManager.customSessionManager.requestSerializer = customRequestSerializer;
-//
-        
     });
     return serverCommunicationManager;
 }
@@ -230,7 +210,7 @@ typedef void(^UploadFileProgress)(double progress);
     request = [mutableRequest copy];
 
     NSURLSession *session = [NSURLSession sessionWithConfiguration:self.sessionConfig];
-    
+    NSLog(@"sendRequest-%@-params-%@", URLString, parameters);
     // 通过request初始化task
     task = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         if (!error) {
